@@ -24,6 +24,10 @@ dependencies {
     runtimeOnly("ch.qos.logback:logback-classic")
     implementation("io.micronaut.validation:micronaut-validation")
     implementation 'org.yaml:snakeyaml'
+
+    implementation group: 'jakarta.xml.bind', name: 'jakarta.xml.bind-api', version: '2.3.3'
+    implementation group: 'com.sun.xml.bind', name: 'jaxb-impl', version: '2.3.7'
+    implementation group: 'org.glassfish.jaxb', name: 'jaxb-runtime', version: '2.3.7'
 }
 
 
